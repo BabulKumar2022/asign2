@@ -12,6 +12,11 @@ body {
   margin: 0px auto;
   padding: 0px 15px;
 }
+.logo h2 {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 30px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -118,12 +123,14 @@ nav {
 .single-popular-item p {
   margin: 15px 20px;
 }
-.fas.fa-star {
-  color: orange;
-}
 .fas,
 .fa-long-arrow-alt-right {
   margin-left: 5px;
+  color: white;
+}
+.fa-star,
+ .fa-star-half-alt{
+  color: orange;
 }
 .single-popular-item {
   width: 100%;
@@ -180,3 +187,36 @@ footer {
 }
 
 /* sesposive */
+/* tablate Device */
+@media (max-width: 900px) {
+  .heder-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .popular-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .single-popular-item img {
+    background-size: cover;
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Mobile device */
+@media (max-width: 650px) {
+  .heder-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .popular-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+ 
+}
