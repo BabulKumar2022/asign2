@@ -12,7 +12,6 @@ body {
   margin: 0px auto;
   padding: 0px 15px;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -34,7 +33,6 @@ nav {
   text-decoration: none;
   padding: 15px 20px;
 }
-
 .heder-banner {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,7 +84,6 @@ nav {
   margin-bottom: 20px;
   object-fit: cover;
 }
-
 .popular-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
