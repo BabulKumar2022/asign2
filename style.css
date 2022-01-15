@@ -129,7 +129,7 @@ nav {
   color: white;
 }
 .fa-star,
- .fa-star-half-alt{
+.fa-star-half-alt {
   color: orange;
 }
 .single-popular-item {
@@ -217,6 +217,4 @@ footer {
     justify-content: center;
     align-items: center;
   }
- 
- 
 }
