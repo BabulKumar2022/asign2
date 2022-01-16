@@ -156,9 +156,19 @@ nav {
   grid-template-columns: 1fr 1fr;
   margin: 30px;
 }
-
 .about-us-left h2 {
   margin: 20px 0;
+}
+.about-us-right {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-right img {
+  display: block;
+  background-size: cover;
+  width: 100%;
 }
 /* footer area  */
 footer {
