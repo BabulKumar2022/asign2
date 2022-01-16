@@ -64,6 +64,7 @@ nav {
   border-width: 0px;
   padding: 10px 20px;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 .product-btn:active {
   top: 15px;
@@ -153,6 +154,11 @@ nav {
 .about-us-area {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 30px;
+}
+
+.about-us-left h2 {
+  margin: 20px 0;
 }
 /* footer area  */
 footer {
@@ -208,6 +214,11 @@ footer {
     width: 100%;
     padding: 10px;
   }
+  .about-us-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
 }
 /* Mobile device */
 @media (max-width: 650px) {
@@ -220,5 +231,10 @@ footer {
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+  }
+  .about-us-area {
+    grid-template-columns: 1fr;
+    margin: 10px;
   }
 }
