@@ -150,6 +150,10 @@ nav {
 .semore .product-btn {
   float: right;
 }
+.about-us-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 /* footer area  */
 footer {
   display: grid;
